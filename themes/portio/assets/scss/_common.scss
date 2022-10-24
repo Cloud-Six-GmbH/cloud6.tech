@@ -1,0 +1,22 @@
+.section {
+  padding: 100px 0;
+}
+
+.unstyle-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+/**
+ * Enable smooth scrolling on all pages
+ */
+ html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

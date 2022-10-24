@@ -1,0 +1,17 @@
+---
+enable: true
+topTitle: About
+title: >
+  ## Über mich
+  
+content: >
+  ### Gestaltung und Umsetzung aus einer Hand
+
+  Mein Ziel ist es, jedem Unternehmen den Schritt in die Cloud Transformation, mit Erfahrung und den richtigen Werkzeug, 
+  so einfach und effizient wie möglich zu machen. Um das zu gewährleisten zu können sind Weiterbildungen, Zertifizierungen 
+  und Konferenzen ein Teil meiner täglichen Arbeit. Stillstand ist für mich sowohl im beruflichen als auch privaten Umfeld ein Fremdwort.
+button1Name: Kontakt
+button2Name: Download CV
+button1Target: contact
+button2Target: https://github.com/Cloud-Six-GmbH/cloud6.tech/raw/main/download/Johannes_Six_CV_En.pdf
+image: images/about/481.webp

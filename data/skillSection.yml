@@ -1,0 +1,21 @@
+---
+enable: true
+topTitle: Skills
+content: >
+  ## Warum sollten Sie mich für Ihr nächstes Projekt engagieren?
+
+  Mein Ziel ist es, Unternehmen mit effizienten Cloud und Automatisierungslösungen in der täglichen Arbeit zu Unterstützen und kosten zu sparen.
+
+image: images/skill/481.webp
+
+skill:
+  - title: Red Hat OpenShift
+    percent: 10
+  - title: Red Hat Ansible
+    percent: 9
+  - title: Kubernetes
+    percent: 9
+  - title: Scripting
+    percent: 7
+  - title: Networking & Routing
+    percent: 8

@@ -1,0 +1,83 @@
+baseURL = "https://serene-bavarois-975879.netlify.app"
+languageCode = "de-de"
+paginate = 6
+theme = "portio"
+title = "Cloud Six"
+
+# Main Menu
+[[menu.main]]
+name = "Home"
+url = "/#home"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/#about"
+weight = 4
+
+[[menu.main]]
+name = "Portfolio"
+url = "/#service"
+weight = 5
+
+[[menu.main]]
+name = "Erfahrungen"
+url = "/#resume"
+weight = 6
+
+[[menu.main]]
+name = "Skills"
+url = "/#skills"
+weight = 7
+
+[[menu.main]]
+name = "Kontakt"
+url = "/#contact"
+weight = 8
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "Impressum"
+url = "/imprint"
+weight = 1
+[[menu.sitemap]]
+name = "Datenschutz"
+url = "/privacy"
+weight = 2
+
+[params]
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "All right reserved copyright © Portio 2020"
+footerLogo = "images/contact/widget-logo.png"
+logo = "images/site-navigation/logo.png"
+
+[params.address]
+address = "Eisfelder Str. 34, 98646 Hildburghausen"
+email = "info@cloud6.tech"
+openingHours = "#TODO"
+phone = "#TODO"
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "23.7783741"
+longitude = "90.3746808"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/"
+weight = 1
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/"
+weight = 2
+[[params.social]]
+icon = "fa-pinterest-square"
+url = "https://www.pinterest.com/"
+weight = 3
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/"
+weight = 4

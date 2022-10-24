@@ -1,0 +1,29 @@
+---
+enable: true
+topTitle: Portfolio
+title: >
+  ## Portfolio
+
+service:
+  - content: >
+      #### Cloud 
+
+      Aufbau von Vollautomatiserten Cloud
+      Umgebung passend für Ihre Anforderungen mit Red Hat OpenShift und Kubernetes. 
+    image: images/service/ui-ux.svg
+  - content: >
+      #### Automatisierung 
+
+      Automatisierung Ihrer bestehenden Infrastruktur und Prozesse. Mit Red Hat Ansible und Terraform.
+    image: images/service/web.svg
+  - content: >
+      #### Routing & Switching 
+
+      Betrieb und Automatisierung Ihrer Netzwerkumgebungen mit langjähriger Erfahrung mit L2 und L3 Techniken.
+    image: images/service/creative.svg
+  - content: >
+      #### Agile Produktentwicklung
+
+      Software in hoher Qualität schnellstmöglich im Markt verproben, um sich jederzeit 
+      flexibel an neue Gegebenheiten anpassen zu können.
+    image: images/service/branding.svg

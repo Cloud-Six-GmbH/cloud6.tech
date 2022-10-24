@@ -1,0 +1,60 @@
+---
+enable: true
+topTitle: Projekterfahrungen
+title: >
+  ## Meine Erfahrungen
+
+tab1Name: Projekte
+tab2Name: Zertifizierungen
+tab1Target: education # TODO Rename this
+tab2Target: experience # TODO Rename this
+
+# TODO find a way to get the Tech points better integrated
+education:
+  - content: >
+      #### German Edge Cloud GmbH & Co. KG
+
+      Design und Aufbau eines Vollautomatiserten OpenShift Edge Produktes.  
+      Tech: OpenShift, Ansible, ArgoCD, Vault, CI/CD
+    time: 2008-2010
+  - content: >
+      #### German Edge Cloud GmbH & Co. KG
+
+      Konzeptionierung und Automatisierung eines Edge Rechenzentrums auf Kubernetes.  
+      Tech: Kubernetes, Ansible, ArgoCD, CumulusOS
+    time: 2008-2010
+  - content: >
+      #### HABA Family Group
+
+      Betrieb und Automatisierung der Netzwerkumgungen der HABA Family Group.  
+      Tech: JunOS, Fortinet, Ansible, Aruba, BGP, VXLAN
+    time: 2008-2010
+  - content: >
+      #### ELAXY BSS GmbH & Co. KG
+
+      Betrieb des Rechenzentrum öffentlichen und internen Rechenzentrumnetzwerkes.  
+      Tech: JunOS, Barracuda, F5, HP, eBGP
+    time: 2008-2010
+
+experience:
+  - content: >
+      #### Red Hat Certified Engineer
+    time: 2022
+  - content: >
+      #### Red Hat Certified Specialist in OpenShift Administration
+    time: 2022
+  - content: >
+      #### Certified Kubernetes Administrator 
+    time: 2021
+  - content: >
+      #### Red Hat Certiefied Specialist in Containers and Kubernetes
+    time: 2022
+  - content: >
+      #### Juniper Enterprise Routing & Switching
+    time: 2019
+  - content: >
+      #### Juniper Automation and DevOps
+    time: 2019
+  - content: >
+      #### Juniper Junos
+    time: 2019
