@@ -1,6 +1,26 @@
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <title>{{ .Title }}</title>
+
+  {{ "<!-- meta tags -->" | safeHTML }}
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="description" content="Cloud Six GmbH is a company based in germany which is specialised in cloud consulting for other business. The main products which are selt are OpenShift, Kubernetes, Ansible and Terraform." />
+  <meta name="author" content="Johannes Six" />
+  <meta name="keywords" content="Cloud, Six, Consulting, OpenShift, Cloud, Six, GmbH, Kubernetes, Cloud, Six, GmbH, Automation, Ansible, Terraform">
+  <meta name="publisher" content="Cloud Six GmbH">
+  <meta name="copyright" content="Cloud Six GmbH">
+  <meta name="page-topic" content="Dienstleistung">
+  <meta name="page-type" content="Produktinfo">
+  <meta name="audience" content="Alle">
+  <meta name="DC.Creator" content="Johannes Six">
+  <meta name="DC.Publisher" content="Cloud Six GmbH">
+  <meta name="DC.Rights" content="Cloud Six GmbH">
+  <meta name="DC.Description" content="Cloud Six GmbH is a company based in germany which is specialised in cloud consulting for other business. The main products which are selt are OpenShift, Kubernetes, Ansible and Terraform.">
+  <meta name="DC.Language" content="de">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-language" content="de">
+  <meta name="robots" content="index,follow"/>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +42,7 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
-  {{ with site.Params.googleAnalytics }}
-  {{ "<!-- Google Analytics -->" | safeHTML }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -32,5 +50,4 @@
 
     gtag('config', '{{ . }}');
   </script>
-  {{ end }}
 </head>
