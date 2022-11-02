@@ -14,9 +14,21 @@ $body-color: #7e7e8a;
 //
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900|Yeseva+One&display=swap");
-$font-family-base: "Poppins", sans-serif;
-$headings-font-family: "Yeseva One", cursive;
+@font-face {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/poppins.woff2') format('woff2'); // Chrome 26+, Opera 23+, Firefox 39+  
+}
+$font-family-base: "poppins";
+
+@font-face {
+    font-family: 'yeseva one';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/yesevaone.woff2') format('woff2'); // Chrome 26+, Opera 23+, Firefox 39+  
+}
+$headings-font-family: "yeseva one";
 
 // Size
 $font-size-base: 1.125rem; // 18px
