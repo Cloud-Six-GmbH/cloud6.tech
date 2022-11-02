@@ -2,14 +2,27 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="robots" content="noindex" />
+    <meta http-equiv="content-language" content="de">
+    <meta name="robots" content="index,follow"/>
     <title>Admin</title>
-    <meta name="description" content=" " />
-    <meta name="author" content=" " />
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
+    <meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+    <meta name="author" content="{{ .Site.Params.homepage_meta_tags.meta_author }}" />
+    <meta name="keywords" content="{{ .Site.Params.homepage_meta_tags.meta_keywords }}">
+    <meta name="publisher" content="{{ .Site.Params.homepage_meta_tags.meta_publisher }}">
+    <meta name="copyright" content="{{ .Site.Params.homepage_meta_tags.meta_copyright }}">
+    <meta name="page-topic" content="{{ .Site.Params.homepage_meta_tags.meta_page_topic }}">
+    <meta name="page-type" content="{{ .Site.Params.homepage_meta_tags.meta_page_type }}">
+    <meta name="audience" content="{{ .Site.Params.homepage_meta_tags.meta_audience }}">
+    <meta name="DC.Creator" content="{{ .Site.Params.homepage_meta_tags.meta_author }}">
+    <meta name="DC.Publisher" content="{{ .Site.Params.homepage_meta_tags.meta_publisher }}">
+    <meta name="DC.Rights" content="{{ .Site.Params.homepage_meta_tags.meta_copyright }}">
+    <meta name="DC.Description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}">
+    <meta name="DC.Language" content="de">
+    <meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
     <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 

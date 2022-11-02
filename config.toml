@@ -64,6 +64,16 @@ latitude = "23.7783741"
 longitude = "90.3746808"
 pinImage = "images/pin.png"
 
+[params.homepage_meta_tags]
+meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+meta_author = "Johannes Six"
+meta_keywords = "Cloud, Six, Consulting, OpenShift, Cloud, Six, GmbH, Kubernetes, Cloud, Six, GmbH, Automation, Ansible, Terraform"
+meta_publisher = "Cloud Six GmbH"
+meta_copyright = "Cloud Six GmbH"
+meta_page_topic = "Dienstleistung"
+meta_page_type = "Produktinfo"
+meta_audience = "Alle"
+
 # Social icons
 [[params.social]]
 icon = "fa-facebook-official"
